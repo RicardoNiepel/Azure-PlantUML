@@ -3,6 +3,10 @@ Categories:
   Services:
   - Source: Azure_logo_icon_50
     Target: Azure
+  - Source: Workbooks
+    Target: AzureWorkbook
+  - Source: Workflow
+    Target: AzureWorkflow
 
 - Name: AIMachineLearning
   Services:
@@ -58,6 +62,19 @@ Categories:
   - Source: Data Lake Store Gen1
     Target: AzureDataLakeStoreGen1
 
+- Name: Blockchain
+  Services:
+  - Source: Azure Blockchain Service
+    Target: AzurBlockchainService
+  - Source: Azure Token Service
+    Target: AzurBlockchainTokenService
+  - Source: ABS Member
+    Target: AzurBlockchainMember
+  - Source: Consortium
+    Target: AzureBlockchainConsortium
+  - Source: Outbound Connection
+    Target: AzureBlockchainConnection
+
 - Name: Compute
   Services:
   - Source: Virtual Machine
@@ -92,8 +109,6 @@ Categories:
     Target: AzureAvailabiltySet
   - Source: Disks Snapshots
     Target: AzureDiskSnapshot
-  - Source: OS Images (Classic)
-    Target: AzureOSImageClassic
   - Source: Batch Accounts
     Target: AzureBatchAccount
   - Source: Disks
@@ -106,25 +121,16 @@ Categories:
     Target: AzureSharedImageGallery
   - Source: VM Images (Classic)
     Target: AzureImageClassic
-  - Source: Disks (Classic)
-    Target: AzureDiskClassic
   - Source: Container Services (Deprecated)
     Target: AzureContainerService
+  - Source: Server Farm
+    Target: AzureServerFarm
   - Source: Azure Spring Cloud
     Target: AzureSpringCloud
-
-- Name: Blockchain
-  Services:
-  - Source: Azure Blockchain Service
-    Target: AzurBlockchainService
-  - Source: Azure Token Service
-    Target: AzurBlockchainTokenService
-  - Source: ABS Member
-    Target: AzurBlockchainMember
-  - Source: Consortium
-    Target: AzurBlockchainConsortium
-  - Source: Outbound Connection
-    Target: AzurBlockchainConnection
+  - Source: Web Slots
+    Target: AzureWebSlot
+  - Source: Web Test
+    Target: AzureWebTest
 
 - Name: Containers
   Services:
@@ -145,7 +151,7 @@ Categories:
   Services:
   - Source: SQL Database
     Target: AzureSqlDatabase
-  - Source: CosmosDB
+  - Source: Azure Cosmos DB
     Target: AzureCosmosDb
   - Source: SQL Data Warehouses
     Target: AzureSqlDataWarehouse
@@ -269,6 +275,8 @@ Categories:
     Target: AzureSystemTopic
   - Source: Partner Topic
     Target: AzurePartnerTopic
+  - Source: Biz Talk
+    Target: AzureBizTalk
 
 - Name: InternetOfThings
   Services:
@@ -286,6 +294,8 @@ Categories:
     Target: AzureDigitalTwins
   - Source: IoT Central Applications
     Target: AzureIoTCentralApplications
+  - Source: Time Series Data Sets
+    Target: AzureTimeSeriesDataSet
   - Source: Time Series Insights Environments
     Target: AzureTimeSeriesInsightsEnvironment
   - Source: Time Series Insights Event Sources
@@ -318,17 +328,17 @@ Categories:
     Target: AzureAutomation
   - Source: Azure Log Analytics
     Target: AzureLogAnalytics
-  - Source: Azure Monitor
+  - Source: Monitor
     Target: AzureMonitor
-  - Source: Azure Resource Groups
+  - Source: Resource Groups
     Target: AzureResourceGroups
   - Source: Policy
     Target: AzurePolicy
-  - Source: Azure Blueprints
+  - Source: Blueprints
     Target: AzureBlueprints
   - Source: Subscriptions
     Target: AzureSubscription
-  - Source: Azure Management Groups
+  - Source: Management Groups
     Target: AzureManagementGroups
   - Source: Azure Managed Applications
     Target: AzureManagedApplications
@@ -339,7 +349,15 @@ Categories:
   - Source: Geo-Recovery
     Target: AzureGeoRecovery
   - Source: Cost Management And Billing
+    Target: AzureCostManagementAndBilling
+  - Source: Cost Management
     Target: AzureCostManagement
+  - Source: Cost Alerts
+    Target: AzureCostAlert
+  - Source: Cost Analysis
+    Target: AzureCostAnalysis
+  - Source: Cost Analysis
+    Target: AzureCostBudget
   - Source: MachinesAzureArc
     Target: AzureArcMachine
   - Source: Azure Lighthouse
@@ -352,8 +370,16 @@ Categories:
     Target: AzureRecoveryServiceVault
   - Source: Resource Graph Explorer
     Target: AzureResourceGraphExplorer
+  - Source: Resource Group List
+    Target: AzureResourceGroupList
+  - Source: Resource Linked
+    Target: AzureResourceLinked
   - Source: Managed Applications Center
     Target: AzureManagedApplicationCenter
+  - Source: Management Portal
+    Target: AzureManagementPortal
+  - Source: Tag
+    Target: AzureTag
   - Source: User Privacy
     Target: AzureUserPrivacy
 
@@ -368,11 +394,19 @@ Categories:
   Services:
   - Source: Azure Media Services
     Target: AzureMediaServices
+  - Source: Media
+    Target: AzureMedia
+  - Source: Media File
+    Target: AzureMediaFile
 
 - Name: Mobile
   Services:
-  - Source: AzureNotificationHubs
+  - Source: Notification Hubs
     Target: AzureNotificationHubs
+  - Source: Notification Hubs
+    Target: AzureNotificationHub
+  - Source: Notification Hub Namespaces
+    Target: AzureNotificationHubNamespace
   - Source: Azure App Service - Mobile App
     Target: AzureMobileApp
     
@@ -396,12 +430,16 @@ Categories:
     Target: AzureAzureDDoSProtection
   - Source: Virtual WANs
     Target: AzureVirtualWAN
-  - Source: Bastions
-    Target: AzureBastion
   - Source: Front Doors
     Target: AzureFrontDoorService
+  - Source: Bastions
+    Target: AzureBastion
   - Source: CDN Profiles
     Target: AzureCDNProfile
+  - Source: ExpressRoute Direct
+    Target: AzureExpressRouteDirect
+  - Source: ExpressRoute Circuits
+    Target: AzureExpressRouteCircuit
   - Source: Firewalls
     Target: AzureFirewall
   - Source: Azure Firewall Manager
@@ -413,7 +451,7 @@ Categories:
   - Source: NAT
     Target: AzureNAT
   - Source: Network Security Groups
-    Target: AzureNSG    
+    Target: AzureNSG
   - Source: Route Filters
     Target: AzureRouteFilter
   - Source: Route Tables
@@ -437,6 +475,8 @@ Categories:
     Target: AzureNetworkInterface
   - Source: Private Link
     Target: AzurePrivateLink
+  - Source: Private Link Hub
+    Target: AzurePrivateLinkHub  
   - Source: Private Link Service
     Target: AzurePrivateLinkService
   - Source: Service endpoints
@@ -501,7 +541,7 @@ Categories:
     Target: AzureQueueStorage
   - Source: Storage Azure Files
     Target: AzureFileStorage
-  - Source: Azure Data Box
+  - Source: Data Box
     Target: AzureDataBox
   - Source: Azure NetApp Files
     Target: AzureNetAppFiles

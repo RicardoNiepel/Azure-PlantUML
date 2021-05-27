@@ -431,38 +431,6 @@
       "$0"
     ]
   },
-  "AzurBlockchainConnection": {
-    "prefix": "Azur Blockchain Connection",
-    "description": "Add Azur Blockchain Connection to diagram",
-    "body": [
-      "AzurBlockchainConnection(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzurBlockchainConnection_Descr": {
-    "prefix": "Azur Blockchain Connection with Description",
-    "description": "Add Azur Blockchain Connection with Description to diagram",
-    "body": [
-      "AzurBlockchainConnection(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzurBlockchainConsortium": {
-    "prefix": "Azur Blockchain Consortium",
-    "description": "Add Azur Blockchain Consortium to diagram",
-    "body": [
-      "AzurBlockchainConsortium(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzurBlockchainConsortium_Descr": {
-    "prefix": "Azur Blockchain Consortium with Description",
-    "description": "Add Azur Blockchain Consortium with Description to diagram",
-    "body": [
-      "AzurBlockchainConsortium(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzurBlockchainMember": {
     "prefix": "Azur Blockchain Member",
     "description": "Add Azur Blockchain Member to diagram",
@@ -508,6 +476,38 @@
     "description": "Add Azur Blockchain Token Service with Description to diagram",
     "body": [
       "AzurBlockchainTokenService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureBlockchainConnection": {
+    "prefix": "Azure Blockchain Connection",
+    "description": "Add Azure Blockchain Connection to diagram",
+    "body": [
+      "AzureBlockchainConnection(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureBlockchainConnection_Descr": {
+    "prefix": "Azure Blockchain Connection with Description",
+    "description": "Add Azure Blockchain Connection with Description to diagram",
+    "body": [
+      "AzureBlockchainConnection(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureBlockchainConsortium": {
+    "prefix": "Azure Blockchain Consortium",
+    "description": "Add Azure Blockchain Consortium to diagram",
+    "body": [
+      "AzureBlockchainConsortium(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureBlockchainConsortium_Descr": {
+    "prefix": "Azure Blockchain Consortium with Description",
+    "description": "Add Azure Blockchain Consortium with Description to diagram",
+    "body": [
+      "AzureBlockchainConsortium(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -671,22 +671,6 @@
       "$0"
     ]
   },
-  "AzureDiskClassic": {
-    "prefix": "Azure Disk Classic",
-    "description": "Add Azure Disk Classic to diagram",
-    "body": [
-      "AzureDiskClassic(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureDiskClassic_Descr": {
-    "prefix": "Azure Disk Classic with Description",
-    "description": "Add Azure Disk Classic with Description to diagram",
-    "body": [
-      "AzureDiskClassic(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzureDiskEncryptionSet": {
     "prefix": "Azure Disk Encryption Set",
     "description": "Add Azure Disk Encryption Set to diagram",
@@ -799,19 +783,19 @@
       "$0"
     ]
   },
-  "AzureOSImageClassic": {
-    "prefix": "Azure O S Image Classic",
-    "description": "Add Azure O S Image Classic to diagram",
+  "AzureServerFarm": {
+    "prefix": "Azure Server Farm",
+    "description": "Add Azure Server Farm to diagram",
     "body": [
-      "AzureOSImageClassic(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "AzureServerFarm(${1:alias}, \"${2:label}\", \"${3:technology}\")",
       "$0"
     ]
   },
-  "AzureOSImageClassic_Descr": {
-    "prefix": "Azure O S Image Classic with Description",
-    "description": "Add Azure O S Image Classic with Description to diagram",
+  "AzureServerFarm_Descr": {
+    "prefix": "Azure Server Farm with Description",
+    "description": "Add Azure Server Farm with Description to diagram",
     "body": [
-      "AzureOSImageClassic(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "AzureServerFarm(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -908,6 +892,38 @@
     "description": "Add Azure Virtual Machine Scale Set with Description to diagram",
     "body": [
       "AzureVirtualMachineScaleSet(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureWebSlot": {
+    "prefix": "Azure Web Slot",
+    "description": "Add Azure Web Slot to diagram",
+    "body": [
+      "AzureWebSlot(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWebSlot_Descr": {
+    "prefix": "Azure Web Slot with Description",
+    "description": "Add Azure Web Slot with Description to diagram",
+    "body": [
+      "AzureWebSlot(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureWebTest": {
+    "prefix": "Azure Web Test",
+    "description": "Add Azure Web Test to diagram",
+    "body": [
+      "AzureWebTest(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWebTest_Descr": {
+    "prefix": "Azure Web Test with Description",
+    "description": "Add Azure Web Test with Description to diagram",
+    "body": [
+      "AzureWebTest(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1551,6 +1567,38 @@
       "$0"
     ]
   },
+  "AzureWorkbook": {
+    "prefix": "Azure Workbook",
+    "description": "Add Azure Workbook to diagram",
+    "body": [
+      "AzureWorkbook(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWorkbook_Descr": {
+    "prefix": "Azure Workbook with Description",
+    "description": "Add Azure Workbook with Description to diagram",
+    "body": [
+      "AzureWorkbook(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureWorkflow": {
+    "prefix": "Azure Workflow",
+    "description": "Add Azure Workflow to diagram",
+    "body": [
+      "AzureWorkflow(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWorkflow_Descr": {
+    "prefix": "Azure Workflow with Description",
+    "description": "Add Azure Workflow with Description to diagram",
+    "body": [
+      "AzureWorkflow(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureActiveDirectory": {
     "prefix": "Azure Active Directory",
     "description": "Add Azure Active Directory to diagram",
@@ -1740,6 +1788,22 @@
     "description": "Add Azure Managed Identity with Description to diagram",
     "body": [
       "AzureManagedIdentity(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureBizTalk": {
+    "prefix": "Azure Biz Talk",
+    "description": "Add Azure Biz Talk to diagram",
+    "body": [
+      "AzureBizTalk(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureBizTalk_Descr": {
+    "prefix": "Azure Biz Talk with Description",
+    "description": "Add Azure Biz Talk with Description to diagram",
+    "body": [
+      "AzureBizTalk(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2031,6 +2095,22 @@
       "$0"
     ]
   },
+  "AzureTimeSeriesDataSet": {
+    "prefix": "Azure Time Series Data Set",
+    "description": "Add Azure Time Series Data Set to diagram",
+    "body": [
+      "AzureTimeSeriesDataSet(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureTimeSeriesDataSet_Descr": {
+    "prefix": "Azure Time Series Data Set with Description",
+    "description": "Add Azure Time Series Data Set with Description to diagram",
+    "body": [
+      "AzureTimeSeriesDataSet(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureTimeSeriesInsights": {
     "prefix": "Azure Time Series Insights",
     "description": "Add Azure Time Series Insights to diagram",
@@ -2255,6 +2335,54 @@
       "$0"
     ]
   },
+  "AzureCostAlert": {
+    "prefix": "Azure Cost Alert",
+    "description": "Add Azure Cost Alert to diagram",
+    "body": [
+      "AzureCostAlert(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureCostAlert_Descr": {
+    "prefix": "Azure Cost Alert with Description",
+    "description": "Add Azure Cost Alert with Description to diagram",
+    "body": [
+      "AzureCostAlert(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureCostAnalysis": {
+    "prefix": "Azure Cost Analysis",
+    "description": "Add Azure Cost Analysis to diagram",
+    "body": [
+      "AzureCostAnalysis(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureCostAnalysis_Descr": {
+    "prefix": "Azure Cost Analysis with Description",
+    "description": "Add Azure Cost Analysis with Description to diagram",
+    "body": [
+      "AzureCostAnalysis(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureCostBudget": {
+    "prefix": "Azure Cost Budget",
+    "description": "Add Azure Cost Budget to diagram",
+    "body": [
+      "AzureCostBudget(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureCostBudget_Descr": {
+    "prefix": "Azure Cost Budget with Description",
+    "description": "Add Azure Cost Budget with Description to diagram",
+    "body": [
+      "AzureCostBudget(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureCostManagement": {
     "prefix": "Azure Cost Management",
     "description": "Add Azure Cost Management to diagram",
@@ -2268,6 +2396,22 @@
     "description": "Add Azure Cost Management with Description to diagram",
     "body": [
       "AzureCostManagement(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureCostManagementAndBilling": {
+    "prefix": "Azure Cost Management And Billing",
+    "description": "Add Azure Cost Management And Billing to diagram",
+    "body": [
+      "AzureCostManagementAndBilling(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureCostManagementAndBilling_Descr": {
+    "prefix": "Azure Cost Management And Billing with Description",
+    "description": "Add Azure Cost Management And Billing with Description to diagram",
+    "body": [
+      "AzureCostManagementAndBilling(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2367,6 +2511,22 @@
       "$0"
     ]
   },
+  "AzureManagementPortal": {
+    "prefix": "Azure Management Portal",
+    "description": "Add Azure Management Portal to diagram",
+    "body": [
+      "AzureManagementPortal(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureManagementPortal_Descr": {
+    "prefix": "Azure Management Portal with Description",
+    "description": "Add Azure Management Portal with Description to diagram",
+    "body": [
+      "AzureManagementPortal(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureMetrics": {
     "prefix": "Azure Metrics",
     "description": "Add Azure Metrics to diagram",
@@ -2447,6 +2607,22 @@
       "$0"
     ]
   },
+  "AzureResourceGroupList": {
+    "prefix": "Azure Resource Group List",
+    "description": "Add Azure Resource Group List to diagram",
+    "body": [
+      "AzureResourceGroupList(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureResourceGroupList_Descr": {
+    "prefix": "Azure Resource Group List with Description",
+    "description": "Add Azure Resource Group List with Description to diagram",
+    "body": [
+      "AzureResourceGroupList(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureResourceGroups": {
     "prefix": "Azure Resource Groups",
     "description": "Add Azure Resource Groups to diagram",
@@ -2460,6 +2636,22 @@
     "description": "Add Azure Resource Groups with Description to diagram",
     "body": [
       "AzureResourceGroups(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureResourceLinked": {
+    "prefix": "Azure Resource Linked",
+    "description": "Add Azure Resource Linked to diagram",
+    "body": [
+      "AzureResourceLinked(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureResourceLinked_Descr": {
+    "prefix": "Azure Resource Linked with Description",
+    "description": "Add Azure Resource Linked with Description to diagram",
+    "body": [
+      "AzureResourceLinked(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2527,6 +2719,22 @@
       "$0"
     ]
   },
+  "AzureTag": {
+    "prefix": "Azure Tag",
+    "description": "Add Azure Tag to diagram",
+    "body": [
+      "AzureTag(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureTag_Descr": {
+    "prefix": "Azure Tag with Description",
+    "description": "Add Azure Tag with Description to diagram",
+    "body": [
+      "AzureTag(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureUserPrivacy": {
     "prefix": "Azure User Privacy",
     "description": "Add Azure User Privacy to diagram",
@@ -2540,6 +2748,38 @@
     "description": "Add Azure User Privacy with Description to diagram",
     "body": [
       "AzureUserPrivacy(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureMedia": {
+    "prefix": "Azure Media",
+    "description": "Add Azure Media to diagram",
+    "body": [
+      "AzureMedia(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureMedia_Descr": {
+    "prefix": "Azure Media with Description",
+    "description": "Add Azure Media with Description to diagram",
+    "body": [
+      "AzureMedia(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureMediaFile": {
+    "prefix": "Azure Media File",
+    "description": "Add Azure Media File to diagram",
+    "body": [
+      "AzureMediaFile(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureMediaFile_Descr": {
+    "prefix": "Azure Media File with Description",
+    "description": "Add Azure Media File with Description to diagram",
+    "body": [
+      "AzureMediaFile(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2588,6 +2828,38 @@
     "description": "Add Azure Migrate with Description to diagram",
     "body": [
       "AzureMigrate(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureNotificationHub": {
+    "prefix": "Azure Notification Hub",
+    "description": "Add Azure Notification Hub to diagram",
+    "body": [
+      "AzureNotificationHub(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureNotificationHub_Descr": {
+    "prefix": "Azure Notification Hub with Description",
+    "description": "Add Azure Notification Hub with Description to diagram",
+    "body": [
+      "AzureNotificationHub(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureNotificationHubNamespace": {
+    "prefix": "Azure Notification Hub Namespace",
+    "description": "Add Azure Notification Hub Namespace to diagram",
+    "body": [
+      "AzureNotificationHubNamespace(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureNotificationHubNamespace_Descr": {
+    "prefix": "Azure Notification Hub Namespace with Description",
+    "description": "Add Azure Notification Hub Namespace with Description to diagram",
+    "body": [
+      "AzureNotificationHubNamespace(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2716,6 +2988,38 @@
     "description": "Add Azure Express Route with Description to diagram",
     "body": [
       "AzureExpressRoute(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureExpressRouteCircuit": {
+    "prefix": "Azure Express Route Circuit",
+    "description": "Add Azure Express Route Circuit to diagram",
+    "body": [
+      "AzureExpressRouteCircuit(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureExpressRouteCircuit_Descr": {
+    "prefix": "Azure Express Route Circuit with Description",
+    "description": "Add Azure Express Route Circuit with Description to diagram",
+    "body": [
+      "AzureExpressRouteCircuit(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureExpressRouteDirect": {
+    "prefix": "Azure Express Route Direct",
+    "description": "Add Azure Express Route Direct to diagram",
+    "body": [
+      "AzureExpressRouteDirect(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureExpressRouteDirect_Descr": {
+    "prefix": "Azure Express Route Direct with Description",
+    "description": "Add Azure Express Route Direct with Description to diagram",
+    "body": [
+      "AzureExpressRouteDirect(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2892,6 +3196,22 @@
     "description": "Add Azure Private Link with Description to diagram",
     "body": [
       "AzurePrivateLink(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzurePrivateLinkHub": {
+    "prefix": "Azure Private Link Hub",
+    "description": "Add Azure Private Link Hub to diagram",
+    "body": [
+      "AzurePrivateLinkHub(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzurePrivateLinkHub_Descr": {
+    "prefix": "Azure Private Link Hub with Description",
+    "description": "Add Azure Private Link Hub with Description to diagram",
+    "body": [
+      "AzurePrivateLinkHub(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

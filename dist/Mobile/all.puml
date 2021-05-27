@@ -1,7 +1,24 @@
+sprite $AzureNotificationHub [70x70/16z] {
+xTV5GSK050NHv_HVCGxtkyqgSdQnYPjjnyuX-n99sQV4tCmAsoi2A-bHl19cVZxg-Sgdv1LbQCNYP5Gyn-s77rPUvwWYgGgHgX2X2k7zAOpwgoHHVvL67gdi
+bGJ-AnM4jeLNlXIiACChdr15CdX5cNp-Ufb3zLEPfwYY3AX8aufqHe6AEWCgiihANgc1-g6Vafe36MViCJvYGAj2f2f4pDkNCSPR5Q9K8M9K0RpJDctt0G
+}
+
+AzureEntityColoring(AzureNotificationHub)
+!define AzureNotificationHub(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNotificationHub, AzureNotificationHub)
+!define AzureNotificationHub(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNotificationHub, AzureNotificationHub)
+
+sprite $AzureNotificationHubNamespace [70x70/16z] {
+xTV5GSK050NHv_HVCGxtkyqgSdQnYPjjnyuX-n99sQV4tCmAsoi2A-bHl19cVZxg-Sgdv1LbQCNYP5Gyn-s77rPUvwWYgGgHgX2X2k7zAOpwgoHHVvL67gdi
+bGJ-AnM4jeLNlXIiACChdr15CdX5cNp-Ufb3zLEPfwYY3AX8aufqHe6AEWCgiihANgc1-g6Vafe36MViCJvYGAj2f2f4pDkNCSPR5Q9K8M9K0RpJDctt0G
+}
+
+AzureEntityColoring(AzureNotificationHubNamespace)
+!define AzureNotificationHubNamespace(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNotificationHubNamespace, AzureNotificationHubNamespace)
+!define AzureNotificationHubNamespace(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNotificationHubNamespace, AzureNotificationHubNamespace)
+
 sprite $AzureNotificationHubs [70x70/16z] {
-pSo5eGKm3090ca3st_YvQuKlDy1XBqXrgnjYu2GreXuT7sfjAGB8XUGaqRI-L4j3KgHZAKDYMoOIoh4akBBKUK5Q5iJqKZSBccL1qzHIzml0kiXkF0iyDLWH
-bWLXMT0i2o3B0beMf6L15BleirAF-k8Nb_e_I_tQmZIG4kjaQRH3oo8sno8rowAmB4hB8kA4kgXEUcvoQP7Qmr9JYyAoA6-Ncbr4oo8YXvFYSqF7el6amhB0
-aIJIi03WSX9urumc05SIDPoqvDmY1hvvk09pQ5b0om9Q5j2oW9O5j2pWPN4q3MjeMP2M1MbPa9O5QLcG7vOj
+xTV5GSK050NHv_HVCGxtkyqgSdQnYPjjnyuX-n99sQV4tCmAsoi2A-bHl19cVZxg-Sgdv1LbQCNYP5Gyn-s77rPUvwWYgGgHgX2X2k7zAOpwgoHHVvL67gdi
+bGJ-AnM4jeLNlXIiACChdr15CdX5cNp-Ufb3zLEPfwYY3AX8aufqHe6AEWCgiihANgc1-g6Vafe36MViCJvYGAj2f2f4pDkNCSPR5Q9K8M9K0RpJDctt0G
 }
 
 AzureEntityColoring(AzureNotificationHubs)
